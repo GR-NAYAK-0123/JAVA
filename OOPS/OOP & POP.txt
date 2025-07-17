@@ -1,0 +1,14 @@
+    OOP : (Object oriented programming)
+--------------------------------------------
+1)It is mainly concerntrate on data security
+2)It has four access modifiers which is used to access variable and methods i.e [public,private,protected,default]
+3)Multiple method can work simultaneously
+4)It is high secure because of it's data hiding feature
+
+
+   POP : (procedure Oriented programming)
+-----------------------------------------------
+1)It is mainly concerntrate on step-by-step flow of execution
+2)It doesn't have any access modifiers
+3)Follows step-by-step flow of execution
+4)There is not any data hiding feature in pop, thus making less secure
