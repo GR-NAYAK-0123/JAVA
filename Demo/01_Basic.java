@@ -65,7 +65,7 @@ package Demo;
 
  */
 
-public class Introduction {
+class Introduction {
     public void msg(){
         System.out.println("It's raining outside");
         System.out.println("Even though we are enjoying java");
