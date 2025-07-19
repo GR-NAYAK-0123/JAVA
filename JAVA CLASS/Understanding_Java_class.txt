@@ -1,0 +1,26 @@
+   Understanding Java Class :
+---------------------------------
+   => A class is a blue print of an object.
+   => We can create any number of object from a class.
+
+   Q) Can we create an empty java file and compile and run it?
+   => We can compile but we can't run it because the .classFile will not be generated as there is no className.
+   Q) Can we create an empty java class and compile and run it?
+   => We can compile and .classFile will be generated but we can't run it because there is no main() is present.
+   Q) Is it Mandatory that java class Name and file Name should be same?
+   => If the aceessModifier of the class is public then it is mandatory to give the file name same as the class Name but if the 
+      aceessModifier of the class is default then no need to give the file name same as the class name.
+   Q) What are the user defined methods/classes and predefined methods/classes?
+        => A user defined method can start with both capital and small letter but the predefined method always start with small
+           letter.
+        => A user predefined class always start with Capital letter whereas the user defined class can start with both capital
+           and small letter [But it is highly recommended to start a user defined class with capital letter].
+   Q) How many methods we can write inside a java class?
+   => We can write any number of method inside a java class.
+   Q) When a java method will be executed?
+   => A java method will be executed whenever we are calling them.
+   Q) How to call a java method?
+   => We can call a java method with the help of "It's respective class object".
+   Q) How to create a class object?
+   => We can create a class object with the help of "new" keyword and initialize them with the help of constructor.
+                                                                           [Constructor name should be same as the class name]
