@@ -1,0 +1,33 @@
+   Internal Architecture of JVM :
+---------------------------------------
+  => Whenever we privide that .ClassFile as a input to the JVM it first loaded into the ClassLoader after that it goes to JVM
+  => Inside the class loader there is three operation performed
+          a) Loading : Loading means this .classFile Loaded into the class loader
+          b) Linking : It means if you want to create an object of another class into your class at time some linking happends
+          c) Initializaton : It means the memory allocation for the instance,local variable happend at the time of running,
+                             but the memory allocation for the static variable happends at the time of class loading.
+  => After this finally .classFile goes into the JVM
+  => Inside the JVM there is five memory areas are there
+          a) Class Area : It store metadata [Data about data] about the class is stored
+          b) Heap Area : Inside this area all the object are created.
+                         There is special memory is present inside this heap area known as SCP [String constant pool].
+          c) Stack Area : In this area all the temporary memory are stored.
+          d) PC Register : It maintains log files, which thread is executes at which particular point of time.
+          e) Native method stack : In this area all the native methods are stored.
+                                   Native methods are those methods which is used in java but they are not written in java.
+   => Interpreter : It reads the byte code instructions and execute them in a sequential manner.
+   => Garbage Collector : It is going to destroy all unreferenced and unused object from heap area.
+
+       JVM (Java Virtual Machine) :
+    ----------------------------------
+    => JVM is  a virtual machine which is provides an environment to executes the java byte codes.
+
+      JRE (Java Runtime Environment) :
+    ------------------------------------
+    => JRE has everything that JVM has and in addition some library function that JVM used them at time of execution
+    => JRE = JVM + Some library function.
+
+      JDK (Java Development Kit) :
+    ----------------------------------
+    => JDK has everything that JRE has and in addition some development tools like Compiler,Debugger,etc...
+    => JDK = JRE + Some development tools.
