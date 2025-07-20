@@ -3,7 +3,7 @@
        Ans) We need pass the value for the parameter whenever we are calling that method
  */
 
-package Demo;
+package DEMO;
 
 class ClassA {
     void meth1(int a, int b){

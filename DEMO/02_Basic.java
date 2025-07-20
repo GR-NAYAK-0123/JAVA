@@ -18,7 +18,7 @@
 
  */
 
-package Demo;
+package DEMO;
 
 // class ClassA {
 //     void meth1(){

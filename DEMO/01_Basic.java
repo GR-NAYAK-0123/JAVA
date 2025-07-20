@@ -1,4 +1,4 @@
-package Demo;
+package DEMO;
 
 /*
     In Java there are 3 basic java programming elements are there
