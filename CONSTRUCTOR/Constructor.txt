@@ -1,0 +1,47 @@
+     
+        Constructor :
+    --------------------
+    => Constructor is a special type of method basically used to provide value for the instance variable.
+    => It is also used to initialize the class object.
+
+        Rule :
+    --------------
+    => Constructor name should be same as the class name.
+    => Constructor doesn't have any return type.
+
+        Key Points Of Java Constructor :
+    ------------------------------------------
+    => Constructor name should be same as the class name.
+    => Constructor doesn't have any return type.
+    => We need to initialize the class object with the available constructor present in our program.
+    => In our program if you are not writting any constructor [Either parameterized or Non-parameterized] then java compiler 
+       provide us with a default constructor.
+    => Defaulf constructor is same as the Non-parameterized constructor.
+    => Default constructor provided by java compiler and Non-parameterized constructor provided by the programmer.
+    => The constructor which is provided by programmer [Either parameterized or Non-parameterized] we can use all the access 
+       modifiers.
+    => But the constructor which is provided by java compiler we can use only two access modifiers that is same as the access modifier
+       of the class.
+    => If we are making our constructor as private then we are restrict to create our class object in any other classes.
+    => You can write return statement inside a constructor also but without returning anything.
+    => Constructor Overloading is possible but overridding is not.
+
+Q) How to call a constructor which is present in our program ?
+=> We can call them simultaneously whenever we are creating our class object.
+
+
+    Difference between constructor and a method :
+  ---------------------------------------------------
+
+      Constructor :
+            => Constructor name should be same as the class name.
+            => Constructor doesn't have any return type.
+            => It is also used to initialize the class object.
+            => In our program if you are not writting any constructor then java compiler provide us with a default constructor.
+
+      Mathod :
+            => You can give any name for the method but it should be following the naming convention of an identifier.
+            => Writting return type is mandatory in method.
+            => It is used to exposed the behaviour of the object.
+            => In our program if we are not writting any method then java compiler doesn't provide us with any methods.
+    
