@@ -1,0 +1,37 @@
+    
+         Static Keyword :
+       ---------------------
+       => Static keyword is mainly used for memory management
+       => We can use static keyword in three ways
+               1) A variable can be declares as static
+               2) A method can be declares as static
+               3) A block can be declares as static
+    
+    1) Static Variable :
+          => It is declared inside a class, outside a method,block and constructor with the help of static keyword is known as
+             static variable.
+          => We can access this variable in 3 ways i.e by using class object, class name and it's identifier name.
+          => Static variable should not be a local variable.
+          => If we are not initialize this variable then JVM will asiign them with their default values.
+          => Static variable also known as class variable.
+          => There is only one copy of static variable is made in our entire program.
+          => Static variable will be initialized at the time of class loading.
+
+    2) Static Method :
+          => The method which is declare by using static keyword is known as static method.
+          => We can access this method in three ways i.e by using class object, class name and it's identifier name.
+          => We can't access a non static variable or method from this static method by using their identifier name, we need to
+             access them with the help of class object.
+
+    3) Static Block :
+          => In our java program if we are having a main() and a static block then first priority will given to the static block.
+          => We can write any number of static block inside our program, they will be executed in the defined order.
+          => we can't call static blocks.
+          => Before java 1.5 version we can print "Raja Nayak" statement by using static block but after java 1.7 it will be
+             mandatory to write main().
+          => For final static variable JVM will not provide them with their default values, it is the responsibility of the 
+             programmer to initialize them whether we are using it or not. A final static variable can be initialized at time
+             of it's declaration or we can only initialize it inside a static block anywhere lese if we are trying to initialize
+             it we will be getting an compile time arror.
+          => For static variable and static block they have same priority, they will be executed in the defined order.
+                                                                                                     [Even before main()]
