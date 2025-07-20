@@ -1,0 +1,34 @@
+      Variables :
+    ---------------
+    => Variable provides an identity to a memory location.
+    => In java there are three types of variables are there.
+
+    1) Instance Variable :
+           => The variable which is declared inside a class, outside a method,block and constructor is known as instance variable
+           => We can access instance variable in two ways. by using class object and identifier name.
+           => If we are not initialize the instance variable then JVM will assign them with their default values.
+           => If the instance varibale and local variable having same name then first priority will given to the local variable
+    2) Static Variable :
+           => The variable which is declared inside a class, outside a method,block and constructor with the help of "static"
+              keyword is known as static variable.
+           => We can access the static varibale in 3 ways i.e byusing identifier name, class boject and class name.
+           => If we are not initialize the static variable then JVM will assign them with their default values.
+           => Static variable couldn't be a locaal variable.
+           => If the static varibale and local variable having same name then first priority will given to the local variable.
+           => It is also known as class variable.
+    3) Local Variable :
+           => The variable which declared inside a method, bloack and constructor is known as local variable.
+           => The scope of the local variable is only within that method. you can't access them outside.
+           => We can access this varibale only by the identifier name.
+           => If we are not initialize this varibale JVM will not assign them. It is the responsibility of the programmer to
+              do that.
+           => If we are decalre this varibale and then we are not using then in our program then our program can run normally
+              but if we are trying to use this varibale without initializing then we will be geeting a compile time error.
+
+
+    Objects :
+  -------------
+   => Object is created from a class.
+   => We can create any number of object from a class.
+   => We can create a object with the help of "new" keyword and initialize them with the help of constructor.
+                                                                             [Constructor name should be same as the class name]
