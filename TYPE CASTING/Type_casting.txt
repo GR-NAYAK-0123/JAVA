@@ -1,0 +1,17 @@
+
+         Type Casting :
+       ------------------
+          => It is the process of converting one data type to another data type.
+          => It is classified into two types.
+
+     1) Impplicit TypeCasting :
+           => This type casting converts a smaller data type into a larger data type.
+           => It is automatically done by the java compiler.
+           => There is no chance of loss of information.
+           => It is also known as "widening"
+
+     2) Explicit TypeCasting :
+           => This type casting converts a larger data type into smaller data type.
+           => It is not automatically done, it is the responsibility of the programmer to do that.
+           => There may be a chance of loss of information.
+           => It is also known as "Narrowing"
