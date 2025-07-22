@@ -1,0 +1,17 @@
+
+    Inheritance :
+  -----------------
+     => Acquaring properties of one class into another class.
+     => If we want to achieve inheritance we need to use either "extends" or "implements" keyword.
+     => It is used for code reusability.
+
+   
+    KeyPoints :
+  ----------------
+     => We can hold parent class object with parent class reference and with that reference we can call only parent class methods.
+     => We can hold child class object with parent class reference and with that reference we can call only parent class methods.
+     => We can hold child class object with child class reference and with that reference we can call BOTH parent and child
+        class methods.
+     => We can't hold parent class object with child class reference, if we are trying to do that we will be getting an compile 
+        time error.
+        
