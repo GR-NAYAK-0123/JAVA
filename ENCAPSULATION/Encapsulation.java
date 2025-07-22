@@ -5,7 +5,7 @@
 
  */
 
-package OOPS;
+package ENCAPSULATION;
 import java.util.Scanner;
 
 public class Encapsulation {
