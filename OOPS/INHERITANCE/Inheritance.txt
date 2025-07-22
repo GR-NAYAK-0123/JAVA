@@ -4,6 +4,7 @@
      => Acquaring properties of one class into another class.
      => If we want to achieve inheritance we need to use either "extends" or "implements" keyword.
      => It is used for code reusability.
+     => Java constructor does not participate in inheritance i.e constructor are not inherited. 
 
    
     KeyPoints :
@@ -14,4 +15,10 @@
         class methods.
      => We can't hold parent class object with child class reference, if we are trying to do that we will be getting an compile 
         time error.
+
+    Super() :
+   -----------
+     => In every java constructor by default compiler will be added super() as a first statement.
+     => It is used to call parent class contructor.
+     => We need to write super() only inside the constructor that to as a first statement. 
         
