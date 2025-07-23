@@ -1,0 +1,29 @@
+
+   Wrapper Class :
+--------------------
+    => If we want to collect multiple element of different data type in that case we need to use collections like LinkedList,
+       HashMap,HashSet,ArrayList, etc
+    => In java collection class does not accept data type they are only accepts objects.
+    => If we want to store different data type into collection classes then first we need to convert that primitive data type
+       into their respective object classes.
+    => Eight primitive data type have their respective eight wrapper classes.
+
+               1) int     -   Integer
+               2) byte    -   Byte 
+               3) short   -   Short 
+               4) long    -   Long 
+               5) float   -   Float 
+               6) double  -   Double 
+               7) char    -   Character 
+               8) boolean -   Boolean
+
+    => All these wrapper classes are present in java.lang package 
+
+
+    Autoboxing :
+  ---------------
+    => It means converting a primitive data type to it's respective wrapper classes.
+
+    Auto un-boxing :
+  -------------------
+    => It means converting a wrapper class object to it's respective primitive data type.
