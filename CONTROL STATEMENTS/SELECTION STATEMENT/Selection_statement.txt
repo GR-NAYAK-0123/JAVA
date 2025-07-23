@@ -1,0 +1,10 @@
+     Selection Statement :
+    -----------------------
+      => Selection statement allow to control the flow of execution of our program based upon conditions known only during run
+         time.
+      => Java provides four selection statement. 
+            
+            1) if
+            2) if-else
+            3) if-else-if 
+            4) switch 
