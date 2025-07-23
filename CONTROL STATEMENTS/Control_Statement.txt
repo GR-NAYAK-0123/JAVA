@@ -1,0 +1,13 @@
+    Control Statement :
+  -----------------------
+     => Control statement change or break the flow of execution by implementing decission making, looping and branching your
+        program to execute particular block of code based on the conditions.
+     => Java supports 3 types of control statement. 
+
+
+     Selection statement :                        Iteration statement :                       Jump statement :
+    -----------------------                      -----------------------                    --------------------
+      => if                                        => while                                    => break
+      => if-else                                   => do-while                                 => continue
+      => if-else-if                                => for                                      => return 
+      => switch                                    => for-each
