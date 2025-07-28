@@ -1,0 +1,16 @@
+ For Loop :
+------------
+   for (Initialization : Test condition : Increment/Decrement){
+       ------------------;
+       ------------------;
+   }
+  => For loop consist of 3 statements.
+       1) Initialization
+       2) Test condition
+       3) Increment / Decrement
+  => Writting two semicolons in for-loop is mandatory otherwise we will be getting compile time error. 
+  => Initialization statement executes only once in the fot-loop. 
+  => increment and decrement statement will be executes only if the condition is true. 
+  => Initialization and increment/decrement operator can be any valid statement. 
+  => At the place of condition 100% we need to provide a condition, if we are not providing any condition then compiler by
+     default consider the condition as true
