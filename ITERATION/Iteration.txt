@@ -1,0 +1,30 @@
+  Iteration Statement :
+------------------------
+  => It executes a part of code or a block of code repeatedly umtil the termination conditions becomes true. 
+  => Java provied 4 types of iteration statement. 
+            
+            1) while
+            2) do-while
+            3) for 
+            4) for-each
+
+    1) while :
+        
+         while(condition){
+            --------;
+            --------;
+         }
+    
+    2) do-while :
+        
+        do {
+            -------;
+            -------;
+        } while(condition);
+    
+    4) for-each :
+         => It will be working on streaming data to retrieve the data from array and collections. 
+          
+        for (int data : arr){
+            System.out.println(data);
+        }
