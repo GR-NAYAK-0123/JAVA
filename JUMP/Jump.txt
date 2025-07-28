@@ -1,0 +1,12 @@
+  Jump Statement :
+--------------------
+   => When compiler came accross jump statement then it will immediately goes to another part of the program. 
+   => Java provides three jump statements
+          1) break
+          2) continue
+          3) return
+   => In addition java supports exception handling that can also alter the control flow of program
+   => break - Compiler came out from the current loop
+   => continue - Skip to the next iteration
+   => We can use break statement only inside a "switch" and "loop"
+   => We can use continue statement onlly inside a "loop"
