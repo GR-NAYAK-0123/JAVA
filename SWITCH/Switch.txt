@@ -1,0 +1,18 @@
+     Switch Case Statement :
+   ---------------------------
+     => Unlike if-else switch case will be having multiple possible execution. 
+     => Upto java 1.4v switch accepts only int, byte, short, char .
+     => From java 1.5v onwards it accepts their respective wrapper classes also. 
+     => From java 1.7v onwards it started accepting string.
+     => Inside switch case we can write any number of case.
+     => If the key value got match with the case label then that particular case will be executed. 
+     => If no case label got match got match with the key value then the default case will be executed. 
+     => We can write default case anywhere inside the switch, it will be executed if no case label got match with the key value. 
+     => If we are not writting break statement then from the case which got match with the key value all the case will be execued
+     => All the cases, including default and break statement are optional in switch. 
+     => Individual statement are not allowed in switch every statement needs to belong a class. 
+     => Duplicate case labels are not allowed in switch. 
+     => In switch kay datatype and label datatype should be compatable. 
+     => Case label values should be present with in the range of the key datatype. 
+     => In switch case statement at key and label position we can write expressions also. 
+     => Every case label should be COMPILE TIME CONSTANT.
