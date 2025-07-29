@@ -1,0 +1,23 @@
+   Method Overridding :
+ ------------------------
+   => Writting two or more methods in two different classes having same method name, same parameters and same return types.
+
+
+   Rules for Method Overridding :
+ -----------------------------------
+  => If we want to perform method Overridding then 100% we need to use inheritance.
+  => If we can't inherit a method then we can't override that method.
+           [Ex : Private method can't be overridden because it can't be inherited]
+  => The method which is present in super class is known as "Overriden method".
+  => The method which is present in child class is known as "Overridding method".
+  => The parameter which is present is child class methos should exactly match with the parameter of the parent class methods.
+  => Whenever we are performing method overridding then access modifiers of child class method should not be more restrictive 
+     than access modifiers of parent class method.
+         private > default > protected > public
+  => Whenever we are performing method overridding then return types of both the methods should be exactly same upto java 1.4v.
+  => After jdk 1.5v the return types may not be same in co-variant return type. [Co-variant return type concept is applicable
+                                                                                   for object types not for primitives]
+  => We can't override a static method. It may seem like we are overridding but it is actually method hiding. We can't override
+     static method because static belongs to a class rather than instance of a class.
+  => As constructor does not participate in inheritance we can't overridde a constructor.
+  => Child class methods should not throw new boarder checked exceptions. 
