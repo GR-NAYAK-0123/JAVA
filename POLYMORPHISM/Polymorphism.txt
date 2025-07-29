@@ -1,0 +1,7 @@
+   Polymorphism :
+ ------------------
+    => It is a process of performing multiple task with same identity
+    => It is classified into two types
+        
+        a) Compile time polymorphism [Method Over-loading]
+        b) Run time polymorphism [Method Overridding]
