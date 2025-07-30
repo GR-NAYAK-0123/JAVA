@@ -16,3 +16,18 @@
        1) By using import packageName.*; [All the classes in that package will be imported]
        2) By using import PackageName.ClassName; [Only specified class will be imported]
        3) By using fullyQualified ClassName; [We can import a class without using import statement]
+
+
+       ClassA ---> com.pack1
+       ClassB ---> com.pack1
+       ClassC ---> com.pack2
+      
+  Q) If i am creating an object of classA in classB am i supposed to import classA into classB?
+  => No [Because both the classes are present in the same package]
+  Q) If i am creating an object of classA in classX am i supposed to import classA into classX?
+  => Yes [Because both the classes are present in different package]
+  Q) If i am inheriting classA into classB am i supposed to import classA into classB?
+  => No [Because both the classes are present in the same package]
+  Q) If i am inheriting classA into classX am i supposed to import classA into classX?
+  => Yes [Because both the classes are present in the different package]
+  
