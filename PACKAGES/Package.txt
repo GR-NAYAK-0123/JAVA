@@ -1,0 +1,18 @@
+  Packages :
+--------------
+  => Packages consists of similar kind of classes, interfaces, enums and sub packages.
+  => Programmers use package to easily organise the java files.
+  => There are two types of packages are there.
+         a) Predefined package
+         b) Userdefines packages 
+  => In java there are nearly 5000 predefined packages are there.
+  => It is the first statement in every java program.
+  => In every java program java.lang package by dedault automatically imported.
+  => If there is a method in a class and that class present in the same package then we can access that method without importing.
+
+
+  Q) How many ways we can import a class into our program?
+  => We can import a java class into our program in three ways :-
+       1) By using import packageName.*; [All the classes in that package will be imported]
+       2) By using import PackageName.ClassName; [Only specified class will be imported]
+       3) By using fullyQualified ClassName; [We can import a class without using import statement]
