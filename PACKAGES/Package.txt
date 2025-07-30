@@ -30,4 +30,3 @@
   => No [Because both the classes are present in the same package]
   Q) If i am inheriting classA into classX am i supposed to import classA into classX?
   => Yes [Because both the classes are present in the different package]
-  
