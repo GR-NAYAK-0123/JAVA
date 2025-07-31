@@ -1,0 +1,47 @@
+  Abstraction :
+-----------------
+  => It is the process of hiding implementation details from the user and showing only neccessary details to the user.
+  => We can achieve abstraction in two ways.
+         1) By using abstract class
+         2) By using interface 
+
+    Abstract method :
+   -------------------
+     => The method which is declared as abstract is known as abstract method. 
+     => Abstract method always ends with a semicolon.
+     => Abstract method does not have method body. 
+     => If you want to give the implementation for the abstract method then we need to give in the next child class by using
+        method Overridding concept.
+
+    Abstract class :
+  --------------------
+     => The class which is declared as abstract is known as abstract class.
+     => Inside the abstract class we can write both abstract method and normal method.
+     => It is not mandatory to write atleast one abstract method inside abstract class.
+     => Writting abstract method and normal method inside abstract class always optional.
+     => If we are writting an abstract method inside a normal class then 100% the class should be declared as abstract claass
+        otherwise we will be getting compile time error. [Inside a normal class we can't write an abstract method]
+     => Inside a abstract class we can write normal methods, abstract methods, static methods, constructors and including main()
+        also.
+     => An abstract class can't be instantiated, means we can't create an object for the abstract class.
+     => If we are inheriting an abstract class and in that abstract class if there is any abstract methods, then in the child
+        class 100% we need to give the implementation for the all abstract methods present in the abstract class by using 
+        method Overridding concept otherwise we will be getting compile time error.
+     => If we don't want to give the implementation for that abstract methods present in the abstract class then make your child
+        class also as abstract.
+     => Variable, blocks and constructors can't be declared as abstract.
+
+
+                Inavlid Combination
+              ------------------------
+                                      static 
+
+                                      private
+
+                                      native
+                abstract
+                                      strictfp
+
+                                      synchronized
+
+                                      final
