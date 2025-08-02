@@ -26,12 +26,24 @@ public class ByteStream {
         System.out.println("Written successfully");
         fos.close();
     }
-  
+      void operation3() throws IOException{
+        System.out.println("Reading data from a file and writting that data into another file");
+        FileInputStream fis = new FileInputStream("IO_STREAM/file2.txt");
+        FileOutputStream fos = new FileOutputStream("IO_STREAM/file3.txt");
+        System.out.println("Connection created");
+        int i;
+        while((i = fis.read()) != -1){
+            fos.write(i);
+        }
+        System.out.println("Data read and written successfully");
+        fis.close();
+        fos.close();
+    }
     
     public static void main(String[] args) throws IOException {
         ByteStream obj = new ByteStream();
         //obj.operation1();
-        obj.operation2();
-        //obj.operation3();
+        //obj.operation2();
+        obj.operation3();
     }
 }
