@@ -1,0 +1,33 @@
+   Array :
+ -----------
+   => Array collects multiple element of similar datatype in a continous block of memory.
+   => In java every array is an object.
+   => At the time of array declaration we shouldn't specify the size of an array.
+   => At the time of array instantiation 100% we need to specify the size otherwise we will be getting a compile time error.
+   => We should not give negative size for an array.  [It will generate a NegativeArraySizeException]
+   => We can give an array size as '0' but in that array we can pass any value.
+   => We can use [int, byte, short, char] datatypes as length of an array.
+   => Maximum array size is the maximum value of int datatype.
+
+
+  Some different ways we can create an array :
+-------------------------------------------------
+  1) int arr[];   [This is declaration of an array]
+     arr = new int[size];  [This is instantiation of an array]
+
+  2) int arr[] = new int[size];  [Declaration and instantiation in a single line]
+
+  3) int arr[] = {100, 200, 300};  
+
+  4) int arr[] = new int[] {10, 20, 30};
+
+ length :
+----------
+ => It is a final variable which is used to get the length of an array.
+ => Ex : arr1.length;
+
+ Drawbacks Of Array :
+-----------------------
+  => Array has fixed length.
+  => Array only accepts homogeneous data.
+  => Array doesn't have any method support.
