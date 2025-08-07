@@ -1,0 +1,6 @@
+  Marker Interface :
+----------------------
+ => It is an empty interface.
+ => Inside a marker interface we will not be having any variables or methods [It is an empty interface].
+ => If a class is inheriting marker interface then that class will achieve some special properties.
+    Ex : Clonable interface, Serialize interface.
