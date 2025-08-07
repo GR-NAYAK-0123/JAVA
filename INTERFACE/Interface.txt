@@ -1,0 +1,23 @@
+  Interface :
+--------------
+ => Interface is not a class, It is just blue print of a class.
+ => Inside a interface by default every method is public abstract.
+ => Inside a interface by default every variable is public static final.
+ => From java 1.8v onwards we can write default methods inside an interface.
+ => From java 1.8v onwards we can write static method and main() also inside an interface.
+ => From java 1.9v onwards we can write private method inside an interface.
+ => We can't write constructor inside an interface.
+ => Just like abstract class we can't instantiate interface means we can not create an object for the interface.
+ => If we want to inherit an interface into a class we need to use keyword "implements".
+ => If we want to inherit an interface into a class and in the interface is having abstract method then in the child class
+    100% we need to provide the implementation for the abstract method which is present in the interface otherwise we will be
+    getting compile time error.
+ => If we don't want to provide the implementation for the abstract method in the child class then we have to declare our child
+    class as abstract.
+
+            extends                                 implements                           extends 
+    class -----------> class          interface -----------------> class     interface ------------> interface 
+
+
+                                              error
+                                    class ------------> interface    
