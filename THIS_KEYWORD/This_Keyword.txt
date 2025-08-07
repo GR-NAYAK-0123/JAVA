@@ -1,0 +1,22 @@
+  Understanding "this" Keyword :
+--------------------------------
+  => "this" keyword is used to resolve the ambiguity between local variable and instance variable.
+  => It is also used to refer present class methods.
+  => It return present class instances.
+  => It is also used as a constructor call.
+  => We can access the static methods by using "this" keyword but we can't use "this" keyword inside a static area.
+
+
+  this :
+----------
+ => This is a keyword.
+ => It is used to call present class instance variable, methods and also it is used to return present class instance.
+ => We can use "this" keyword anywhere except static area.
+
+
+ this() :
+----------
+ => It is a constructor call.
+ => It is used to call present class constructor and we can use it only inside a constructor that to as a first statement.
+ => We can't use this() anywhere except inside a constructor.
+ 
