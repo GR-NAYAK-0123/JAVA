@@ -1,0 +1,9 @@
+  Functional Interface :
+-------------------------
+  => The interface which is having only one abstract method is known as Functional interface.
+  => It is interoduced in java 1.8v.
+  => Inside functional interface we can have any number of default method, static method, private method and main() also but
+     there should be only one abstarct method.
+     Ex : Runnable interface, consumer interface, predicate interface
+  => Functional interface will assist the programmer in implementing lambda expression.
+  
