@@ -1,0 +1,25 @@
+  String :
+------------
+  => String collects group of characters.
+  => Every string data should be present inside a " ";
+  => Whenever we are creating a string by using string class is immutable.
+  => To know the length of the string we would use "length()".[It is a final method]
+
+  Different ways to create a string :
+--------------------------------------
+   1) String s1 = "Raja Nayak";
+
+   2) String s2 = new String("Raja Nayak");
+
+   3) char arr[] = {'R', 'A', 'J', 'A'};
+      String s3 = new String(arr);
+
+   4) String s4 = new String (arr, 1, 2);
+                  [Here 1 is starting index and 2 is the number of character from the index]
+
+                
+
+   Immutable :
+ --------------
+  => If we are creating a string by using string class then we can't change/modify it's content.If we are try to modify then 
+     entirely a new object will be created.The changes can't affect the old object.            
