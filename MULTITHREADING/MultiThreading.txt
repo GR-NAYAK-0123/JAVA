@@ -1,0 +1,16 @@
+   Multitasking :
+ ------------------
+   => It is a process of performing multiple task simultaneously by a single processor inorder to optimize the utilization of CPU
+   => We can achieve Multitasking by two ways.
+        1) By the help of multiprocessing.
+        2) By the help of multithreading.
+    
+    Multi-processing :
+  ---------------------
+    => In this multiprocessing for every task there is separate process will be created which consumes a lot of memory.
+
+    Multi-threading :
+  ---------------------
+   => It means running multiple part of program at the same time.
+   => In this multithreading for every task there is a separate thread will be created and it saves a lot of memory space.
+
