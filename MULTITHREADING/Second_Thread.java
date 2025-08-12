@@ -1,4 +1,5 @@
 package MULTITHREADING;
+import java.lang.Thread;
 
 public class Second_Thread implements Runnable{
     public void run(){
@@ -9,8 +10,8 @@ public class Second_Thread implements Runnable{
     }
     public static void main(String[] args) {
         Second_Thread obj = new Second_Thread();
-        java.lang.Thread t1=new java.lang.Thread(obj);
-        java.lang.Thread t2 = new java.lang.Thread();
+        Thread t1=new Thread(obj);
+        Thread t2 = new Thread();
 
         t1.start(); // A new thread will be created and that thread is responsible for running the run() which is present in Second_Thread class
         
