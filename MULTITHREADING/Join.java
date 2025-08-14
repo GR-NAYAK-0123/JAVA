@@ -1,3 +1,13 @@
+/*
+   Join() :
+  ----------
+   => This join() allows to wait the current executing thread for completion of another thread. 
+   => Every join() throws InterruptedException, hence compulsory we should handle by using try catch block or by using throws
+      keyword otherwise we will be getting compile time error. 
+
+ */
+
+
 package MULTITHREADING;
 import java.lang.Thread;
 
