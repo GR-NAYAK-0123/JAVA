@@ -46,3 +46,20 @@ class Withdraw {
         }.start();   // Anonymous Inner class ends here
     } 
 }
+
+
+/*
+    Wait() :
+   ---------
+    => It is present in the object class. 
+    => It is a non static method. 
+    => Three versions of wait() are there -> wait() , wait(millisec), wait(millisec, nanosec). 
+    => We need to use wait() only inside a synchronized context. 
+
+    Sleep() :
+   -----------
+    => It is present in Thread class. 
+    => It is a static method. 
+    => There are two versions of sleep() are there -> sleep(millisec), sleep(millisec, nanosec). 
+    => We can use sleep() in both inside a synchronized context and outside also. 
+ */
