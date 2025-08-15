@@ -9,6 +9,8 @@
              a) Synchronized method. 
              b) Synchronized block. 
     => The main drawback of synchronization is it increases thread waiting time.  
+    => thread.join() stops the execution of current thread and allow the another thread should complete it's execution. 
+    => Synchronization prevents multiple threads from executing the synchronized part of code on the same instance. 
  */
 
 package MULTITHREADING;
