@@ -30,12 +30,12 @@
 package MULTITHREADING;
 import java.lang.Thread;
 
-public class Thread1 extends Thread {
+public class First_Thread extends Thread {
     public void run(){
         System.out.println("Run method called");
     }
     public static void main(String[] args) {
-        Thread1 obj = new Thread1();
+        First_Thread obj = new First_Thread();
         Thread t1=new Thread(obj);
         t1.start();
         //obj.start();
