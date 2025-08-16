@@ -1,0 +1,42 @@
+   Error :
+  ---------
+  => If your program is having an error then it will be terminated, We can not save our program.
+
+    a) Compile time error : 
+             => These error occurs due to the bad syntax in the program.
+    
+    b) Run time error :
+             => These error occurs due to the inefficiency of the machine.
+
+    c) Logical error :
+             => These error occurs due to the bad logic by the programmer. 
+    
+
+   Exception :
+ --------------
+  => If your program is having an exception then it will be terminated but we can handle it by applying some exception handling
+     technique.
+
+    a) Checked Exception :
+       => These exception is detected by the java compiler at the compilation time are known as checked exception.
+
+    b) Unchecked Exception :
+       => These exception is detected by the JVM at the run time are known as Unchecked exception.
+
+  => Every exception always occurs at the run time but some of the exception occurs at Compile time and some are occurs at run 
+     time.
+  => An exception always occurs inside a method or inside a block.
+
+
+  Q) How to Handle an exception ?
+  => We can handle an exception by using try-catch-finally blocks.
+  
+       try{
+            Inside the try block we need to write the suspicious code
+       }
+       catch(Exception e){
+            Inside the catch block we need to catch the exception which is occured in the try block.
+       }
+       finally{
+            Irrespective of an exception [Whether an exception occured or not] finally block always gets executed.
+       }
