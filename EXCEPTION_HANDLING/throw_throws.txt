@@ -1,0 +1,14 @@
+  throw :
+ ---------
+  => 'throw' keyword is used to throw user defined exception messages.
+  => We need to use 'throw' keyword inside the method body.
+  => We can use 'throw' keyword for both checked and unchecked exception.
+
+
+  throws :
+ ----------
+  => 'throws' keyword is used to escape from the exception.
+  => We need to use 'throws' keyword along with the method signature.
+  => We can use 'throws' keyword only with the checked exception.
+
+  
