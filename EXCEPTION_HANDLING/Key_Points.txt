@@ -1,0 +1,26 @@
+   Key Points In Exception Handling : 
+ --------------------------------------
+  => We can handle the exception by using try-cathc-finally blocks.
+  => Whenever we are using all the three blocks we should 100% maintain the order.
+                                  [try-catch-finally]
+  => Inside the try block we need to write minimum code [Write only suspicious code].
+  => If there is an exception occured in the try block then our compiler immediately come to the respective catch block,remaining
+     code which is present in the try block will not be getting executed.
+  => A catch block will be executed only if there is an exception occured in the try block and we are catching that 
+     respective exception.
+  => If we are catching the parent exception of the exception classes i.e (Exception) then every exception will be handled.
+  => A single try block never exists.
+  => try block should be followed with the catch block (or) finally block (or) both.
+  => If we are not writting the catch block in our program then we will not having any error but if there is an exception occured
+     in our program then it will not be handled.
+  => finally block is used to close the existing database/server connection.
+  => Between try-catch-finally block there should not be any individual statement.
+  => We can handle multiple exception by using multiple catch block.
+  => For a single try block we can write multiple catch block but we need to write single finally block.
+  => Multiple catch blocks are allowed but multiple finally blocks are not allowed.
+  => Whenever we are using multiple catch block always parent exception should be handled in the last catch block.
+  => If we are using multiple catch blocks duplicate exception handling is not allowed.[It generates compile time error]
+  => From java 1.7v onwards we can write single try block also [try{Resources}].
+  => From java 1.7v onwards we can handle multiple exception by using a single catch block. But those exception should not having
+     any parent child relationship.
+     
