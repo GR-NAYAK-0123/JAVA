@@ -1,0 +1,14 @@
+  Final Keyword : 
+-------------------
+ => Final keyword is basically used for restrict the users.
+ => We can use final keyword is 3 ways
+    
+    a) final variable : 
+       => If we declare a variable as final then we can't change it's value [It's like a constant variable].
+    
+    b) final method :
+       => If we declare a method as final then we can't override that method but we can inherit that method.
+
+    c) final class : 
+       => If we declare a class as final then we can't inherit that class.
+       
