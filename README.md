@@ -55,4 +55,4 @@ It is a collection of practice programs covering important concepts, starting fr
 1. Clone the repository:
 
    ```bash
-   git clone <your-repo-link>
+   git clone <https://github.com/GR-NAYAK-0123/JAVA.git>
