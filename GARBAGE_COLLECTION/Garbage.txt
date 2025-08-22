@@ -1,0 +1,20 @@
+   Garbage Collection :
+ ------------------------
+=> It is a process of reaquaring the heap memory by destroying the unused and unreferenced objects from the heap area.
+=> Garbage collector is going to use MARK and SWEEP algorithm for destroying the objects.
+=> It will be working in the background of of every java program [It is a daemon thread].
+=> Programmers no need to call garbage collector manually but if we want to call it manually then we can do that by using System
+   class or Runtime class. 
+=> It is not a process of collecting and discarding dead objects.It is more like making the "live" objects and everything else
+   designated as garbage.
+=> During the garbage collection objects that are no longer used are deleted by garbage collector implicitly thus making space
+   for new objects.
+
+   Q) When garbage collector will be working on your program?
+   => A garbage collector will be working on our program if there is an object is eligible for destruction.
+
+   Q) When an object is eligible for destruction?
+   => An object is eligible for destruction in one of the three below mentioned ways
+         1) By Re-assigning the reference variable.
+         2) By Nullifying the reference varibale.
+         3) All objects created inside a method.
