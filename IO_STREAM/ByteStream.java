@@ -1,3 +1,20 @@
+/*
+    Byte Streams :
+  -------------------
+  => In byte streams the data will be transfered in the form of bytes and the length of each data packet is 1 byte. 
+  => It has classified into two streams
+
+            a) InputStream --> FileInputStream (implementation class)
+               read() : The return type of this metho is int, it will return the ASCII value of the character if there is no 
+                        character is present then it will return -1. 
+            
+            b) OutputStream --> FileOutputStram (implementation class)
+               write() : It is paremeterized method having one parameter
+                        => Either int
+                        => Or byte array
+ */
+
+
 package IO_STREAM;
 
 import java.io.FileInputStream;
