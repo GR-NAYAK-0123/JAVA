@@ -12,6 +12,12 @@
 
     => This object stream is used to achieve serialization. 
     => In this object stream also the order is important. 
+    => In this object stream whenever we need to provide the path it is mandatory to use (.ser) extension
+
+       transient :
+     ---------------
+     => If you don't want your variable can participate in serialization then declare them as "transient". Then JVM ignores
+        it original value and print the default values of the variable when you print that. 
  */
 package IO_STREAM;
 
