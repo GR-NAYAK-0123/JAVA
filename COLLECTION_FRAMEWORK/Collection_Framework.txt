@@ -1,0 +1,73 @@
+# Difference between Collection and Arrays
+
+    Arrays :
+  ------------
+  => It has fixed length. 
+  => It can hold only homogeneous data.
+  => It doesn't have any method support. 
+  => It can hold both object and primitive data types.
+  => Memory wise - It is recommended
+     Performance wise - Not recommended
+
+   Collections :
+ ------------------
+  => It is growable in nature.
+  => It can hold both homogeneous and heterogeneous data. 
+  => It has a lot of method support. 
+  => It can only accept objects.
+  => Memory wise - Not recommended
+     Performance wise - Recommended 
+
+
+                                              Collection Framework :
+                                            --------------------------
+                          Collection (i)                                                                   Map (i)
+                        ------------------                                                               -----------
+                                                                                                        => HashMap
+      List (i)                  Set (i)                    Queue (i)                                    => LinkedHashMap
+    -----------               ----------                 -------------                                  => TreeMap 
+ => ArrayList                => HashSet                 => LinkedList                                   => Hashtable
+ => LinkedList               => LinkedHashSet           => PriorityQueue                                
+ => Vector                   => TreeSet                                                                   (Classes)
+                                                           (Classes)                                      
+   (Classes)                   (Classes)
+
+
+   List :
+ ---------
+ => In list elements will be stored just like an array but list allows duplicate data. 
+
+   Set : 
+ ---------
+ => In set elements will be stored like an array but it doesn't allows duplicate data. 
+
+   Queue :
+ ----------
+ => In queue elements will be stored in the FIFO order [First in First out]. 
+
+   Map :
+ --------
+ => In map data will be stored in the form of key-value pairs
+
+ Q) How to retrieve the data from the collection Classes ?
+ => We can retrieve the data from the collection classes in below mentioned ways :
+
+a) By using for-loop
+b) By using for-each loop
+c) Iterator Interface [By using this Interface we can retrieve the data ONLY in forward direction]
+d) ListIterator Interface [By using this interface we can retrieve the data in BOTH direction]
+e) Enumeration Interface [It is used to retrieve the data from legacy classes]
+
+
+   Collection Object :
+ -----------------------
+ => A collection object can store group of other object. 
+ => A collection object has a class called collection class.
+ => All the collection class are present java.util package
+ => A group of collection classes is called Collection Framework
+ => All the collection classes in java.util package are implementation classes for different interface
+                                                                                      [like : list, set, Queue, map]
+ => In general collection framework consist of 3 parts
+          a) Algorithm (Rules)
+          b) Interfaces (abstract datatype)
+          c) Implementations (concrete version of these Interfaces)
