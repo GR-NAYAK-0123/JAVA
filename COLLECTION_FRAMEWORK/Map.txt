@@ -1,0 +1,11 @@
+   Map :
+ --------
+ => In map interface the data will be stored in the form of key-value pairs
+ => In map there are 4 implementation classes are there
+          
+          1) HashMap
+          2) LinkedHashMap
+          3) TreeMap
+          4) HashTable
+ => In implementation classes always the Key value should be UNIQUE
+ => One key-value pairs is also known as One entry set 
